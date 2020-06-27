@@ -1,0 +1,13 @@
+C:\Users\eanokui\source\repos\LibraryRobot\LibraryRobot\bin\Debug\netcoreapp3.1\LibraryRobot.exe
+C:\Users\eanokui\source\repos\LibraryRobot\LibraryRobot\bin\Debug\netcoreapp3.1\LibraryRobot.deps.json
+C:\Users\eanokui\source\repos\LibraryRobot\LibraryRobot\bin\Debug\netcoreapp3.1\LibraryRobot.runtimeconfig.json
+C:\Users\eanokui\source\repos\LibraryRobot\LibraryRobot\bin\Debug\netcoreapp3.1\LibraryRobot.runtimeconfig.dev.json
+C:\Users\eanokui\source\repos\LibraryRobot\LibraryRobot\bin\Debug\netcoreapp3.1\LibraryRobot.dll
+C:\Users\eanokui\source\repos\LibraryRobot\LibraryRobot\bin\Debug\netcoreapp3.1\LibraryRobot.pdb
+C:\Users\eanokui\source\repos\LibraryRobot\LibraryRobot\obj\Debug\netcoreapp3.1\LibraryRobot.csprojAssemblyReference.cache
+C:\Users\eanokui\source\repos\LibraryRobot\LibraryRobot\obj\Debug\netcoreapp3.1\LibraryRobot.AssemblyInfoInputs.cache
+C:\Users\eanokui\source\repos\LibraryRobot\LibraryRobot\obj\Debug\netcoreapp3.1\LibraryRobot.AssemblyInfo.cs
+C:\Users\eanokui\source\repos\LibraryRobot\LibraryRobot\obj\Debug\netcoreapp3.1\LibraryRobot.csproj.CoreCompileInputs.cache
+C:\Users\eanokui\source\repos\LibraryRobot\LibraryRobot\obj\Debug\netcoreapp3.1\LibraryRobot.dll
+C:\Users\eanokui\source\repos\LibraryRobot\LibraryRobot\obj\Debug\netcoreapp3.1\LibraryRobot.pdb
+C:\Users\eanokui\source\repos\LibraryRobot\LibraryRobot\obj\Debug\netcoreapp3.1\LibraryRobot.genruntimeconfig.cache
