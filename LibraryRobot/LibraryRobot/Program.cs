@@ -12,11 +12,11 @@ namespace LibraryRobot
         {
             Dictionary<string, string> isbnValues = new Dictionary<string, string>();
 
-            isbnValues.Add("044901827X", "Anima-Marie Buchanan-1972-Ballantine Books");
             isbnValues.Add("0312261217", "Air-Geoff Ryman-2005-St. Martin's Press");
             isbnValues.Add("0849917905", "Black-Ted Dekker-2004-W Pub Group");
             isbnValues.Add("0441785654", "Steel Beach-John Varley-1992-Ace");
             isbnValues.Add("0451451112", "Strata-Terry Pratchett-1981-Roc");
+            isbnValues.Add("044901827X", "Anima-Marie Buchanan-1972-Ballantine Books");
             isbnValues.Add("1439541523", "The War of the Worlds-H G Wells-2008-Paw Prints");
             isbnValues.Add("0586066535", "One Million Tomorrows-Bob Shaw-1970-Grafton");
             isbnValues.Add("0515034797", "Mission of Gravity-Hal Clement-1954-Pyramid");
@@ -85,12 +85,19 @@ namespace LibraryRobot
                     string isbn = Console.ReadLine();
 
                     if (IsValid(isbn))
-
                     {
-                        string compressedString = (book + "-" + author + "-" + year + "-" + publisher);
-                        isbnValues.Add(isbn, compressedString);
-                        Console.WriteLine("\nDatabase updated. \nThank you for using this program. ");
-                        Console.WriteLine("\nEnter 'view' to see the final database. ");
+                        try
+                        {
+                            string compressedString = (book + "-" + author + "-" + year + "-" + publisher);
+                            isbnValues.Add(isbn, compressedString);
+                            Console.WriteLine("\nDatabase updated. \nThank you for using this program. ");
+                            Console.WriteLine("\nEnter 'view' to see the final database. ");
+                        }
+                        
+                        catch (Exception)
+                        {
+                            Console.WriteLine("\nThe book already exists. ");
+                        }
                     }
 
                     else
@@ -164,9 +171,9 @@ namespace LibraryRobot
             {
                 int intISBN = Int32.Parse(ISBN.Substring(0, 9));
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                Console.WriteLine(e.Message);
+                Console.WriteLine("\nThe first 9 characters must be numeric. ");
             }
             
             string[] arrISBN = new string[10];
